@@ -74,7 +74,7 @@ button {
 
 /* Heading */
 
-h2,
+.title,
 .add-task__title {
   color: #333;
   font-weight: 700;
