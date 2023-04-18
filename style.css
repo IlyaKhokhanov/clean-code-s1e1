@@ -87,7 +87,8 @@ button {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.item__input,
+.add-task__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,7 +101,8 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+.item__input:focus,
+.add-task__input:focus {
   color: #333;
 }
 
