@@ -8,7 +8,7 @@ body {
 
 ul {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 li,
@@ -134,16 +134,17 @@ button {
 
 .item__checkbox {
   margin: 0 10px;
+  cursor: pointer;
 }
 
-.item > .item__label {
+.item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.item > .item__input {
+.item__input {
   width: 226px;
 }
 
