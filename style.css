@@ -1,4 +1,4 @@
-/* Basic Style */
+/* Reset Style */
 
 body {
   background-color: #f8f8f8;
@@ -20,6 +20,8 @@ input,
 button {
   outline: none;
 }
+
+/* Basic Style */
 
 .header {
   width: 500px;
@@ -148,13 +150,13 @@ button {
   width: 226px;
 }
 
-.item__delete-btn img {
+.item__delete-btn .item__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.item__delete-btn img:hover {
+.item__delete-btn .item__delete-img:hover {
   transform: rotateZ(0);
 }
 

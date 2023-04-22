@@ -34,8 +34,10 @@ function createTodoItem(taskString) {
   editButton.innerText = "Edit";
 
   let deleteButton = document.createElement("button");
-  let deleteButtonImg = document.createElement("img");
   deleteButton.classList.add("item__delete-btn", "btn");
+
+  let deleteButtonImg = document.createElement("img");
+  deleteButtonImg.classList.add("item__delete-img")
   deleteButtonImg.src = "./remove.svg";
   deleteButton.append(deleteButtonImg);
 
